@@ -20,7 +20,8 @@
     "typeRoots": ["./node_modules/@types"],
     "baseUrl": ".",
     "paths": {
-      "lib/*": ["lib/*"]
+      "src/*": ["src/*"],
+      "config/*": ["config/*"]
     }
   },
   "exclude": ["node_modules", "cdk.out"]
